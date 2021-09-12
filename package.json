@@ -1,6 +1,6 @@
 {
   "name": "pass-message",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web component that allows for invoking an arrow function or method of the host. or other \"upSearched\" components.",
   "keywords": [
     "webc omponents",
