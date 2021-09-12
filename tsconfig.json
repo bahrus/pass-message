@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module":"ESNext",
+		"sourceMap": false,
+		"experimentalDecorators": false,
+		"newLine": "LF",
+		"strict": true,
+		"watch": true
+	},
+	"files": [
+		"pass-message.ts",
+		"p-m.ts"
+	],
+	"exclude":[
+		"build",
+		"bower_components",
+		"node_modules"
+	]
+
+}

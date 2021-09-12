@@ -1,10 +1,14 @@
 {
   "name": "pass-message",
   "version": "0.0.0",
-  "description": "",
+  "description": "Web component that allows for invoking an arrow function or method of the host. or other \"upSearched\" components.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "trans-render": "0.0.401",
+    "pass-up": "0.0.13"
   },
   "repository": {
     "type": "git",
