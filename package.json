@@ -2,22 +2,52 @@
   "name": "pass-message",
   "version": "0.0.0",
   "description": "Web component that allows for invoking an arrow function or method of the host. or other \"upSearched\" components.",
-  "main": "index.js",
+  "keywords": [
+    "webc omponents",
+    "web component",
+    "custom elements",
+    "custom element",
+    "bind",
+    "dom-bind"
+  ],
+  "main": "pass-message.js",
+  "module": "pass-message.js",
+  "exports": {
+    ".": "./pass-message.js",
+    "./pass-message.js": "./pass-message.js",
+    "./p-m.js": "./p-m.js"
+  },
+  "files": [
+    "p*.js",
+    "p*.ts",
+    "types.d.ts",
+    "custom-elements.json"
+  ],
+  "types": "./types.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-check": "package-check",
+    "serve": "node node_modules/xtal-test/serve.js",
+    "doc": "custom-elements-manifest analyze"
   },
   "dependencies": {
     "trans-render": "0.0.401",
     "pass-up": "0.0.13"
   },
+  "devDependencies": {
+    "@skypack/package-check": "0.2.2",
+    "xtal-test": "0.0.51",
+    "@custom-elements-manifest/analyzer": "0.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahrus/pass-message.git"
   },
-  "author": "",
+  "author": "anderson.bruce.b@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bahrus/pass-message/issues"
   },
-  "homepage": "https://github.com/bahrus/pass-message#readme"
+  "homepage": "https://github.com/bahrus/pass-message#readme",
+  "customElements": "custom-elements.json"
 }

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "p-m.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "PM",
+          "members": [
+            {
+              "kind": "field",
+              "name": "is",
+              "type": {
+                "text": "string"
+              },
+              "static": true,
+              "default": "'p-m'",
+              "inheritedFrom": {
+                "name": "PassMessage",
+                "module": "pass-message.ts"
+              }
+            },
+            {
+              "kind": "method",
+              "name": "doSet",
+              "parameters": [
+                {
+                  "name": "match",
+                  "type": {
+                    "text": "any"
+                  }
+                },
+                {
+                  "name": "prop",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "lastVal",
+                  "type": {
+                    "text": "any"
+                  }
+                }
+              ],
+              "inheritedFrom": {
+                "name": "PassMessage",
+                "module": "pass-message.ts"
+              }
+            }
+          ],
+          "superclass": {
+            "name": "PassMessage",
+            "module": "/pass-message.js"
+          },
+          "tagName": "p-m",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PM",
+          "declaration": {
+            "name": "PM",
+            "module": "p-m.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "p-m.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "PM",
+          "members": [
+            {
+              "kind": "field",
+              "name": "is",
+              "type": {
+                "text": "string"
+              },
+              "static": true,
+              "default": "'p-m'",
+              "inheritedFrom": {
+                "name": "PassMessage",
+                "module": "pass-message.ts"
+              }
+            },
+            {
+              "kind": "method",
+              "name": "doSet",
+              "parameters": [
+                {
+                  "name": "match",
+                  "type": {
+                    "text": "any"
+                  }
+                },
+                {
+                  "name": "prop",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "lastVal",
+                  "type": {
+                    "text": "any"
+                  }
+                }
+              ],
+              "inheritedFrom": {
+                "name": "PassMessage",
+                "module": "pass-message.ts"
+              }
+            }
+          ],
+          "superclass": {
+            "name": "PassMessage",
+            "module": "/pass-message.js"
+          },
+          "tagName": "p-m",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PM",
+          "declaration": {
+            "name": "PM",
+            "module": "p-m.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "pass-message.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "PassMessage",
+          "members": [
+            {
+              "kind": "field",
+              "name": "is",
+              "type": {
+                "text": "string"
+              },
+              "static": true,
+              "default": "'pass-message'"
+            },
+            {
+              "kind": "method",
+              "name": "doSet",
+              "parameters": [
+                {
+                  "name": "match"
+                },
+                {
+                  "name": "prop"
+                },
+                {
+                  "name": "lastVal"
+                }
+              ]
+            }
+          ],
+          "superclass": {
+            "name": "PassUp",
+            "package": "pass-up/pass-up.js"
+          },
+          "tagName": "pass-message",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PassMessage",
+          "declaration": {
+            "name": "PassMessage",
+            "module": "pass-message.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "pass-message.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "PassMessage",
+          "members": [
+            {
+              "kind": "field",
+              "name": "is",
+              "type": {
+                "text": "string"
+              },
+              "static": true,
+              "default": "'pass-message'"
+            },
+            {
+              "kind": "method",
+              "name": "doSet",
+              "parameters": [
+                {
+                  "name": "match",
+                  "type": {
+                    "text": "any"
+                  }
+                },
+                {
+                  "name": "prop",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "lastVal",
+                  "type": {
+                    "text": "any"
+                  }
+                }
+              ]
+            }
+          ],
+          "superclass": {
+            "name": "PassUp",
+            "package": "pass-up/pass-up.js"
+          },
+          "tagName": "pass-message",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PassMessage",
+          "declaration": {
+            "name": "PassMessage",
+            "module": "pass-message.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "types.d.ts",
+      "declarations": [],
+      "exports": []
+    }
+  ]
+}
