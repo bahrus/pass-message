@@ -3,10 +3,10 @@
   "version": "0.0.4",
   "description": "Web component that allows for invoking an arrow function or method of the host. or other \"upSearched\" components.",
   "keywords": [
-    "webc omponents",
-    "web component",
-    "custom elements",
-    "custom element",
+    "web-components",
+    "web-component",
+    "custom-elements",
+    "custom-element",
     "bind",
     "dom-bind"
   ],
